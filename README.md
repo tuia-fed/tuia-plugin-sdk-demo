@@ -4,7 +4,9 @@
 
 ## 使用说明
 步骤一：引入aar
+
 1)在工程的build.gradle添加远程仓库
+
 ```
 repositories {
         google()
@@ -23,9 +25,10 @@ allprojects {
 ```
 
 2)项目的build.gradle中添加依赖
-``
+```
 implementation 'com.tuia.sdk:plugin_sdk:1.0.0'
 ```
+
 步骤二：配置appKey
 在项目的清单配置文件AndroidManifest.xml中添加
         <meta-data
@@ -35,6 +38,7 @@ implementation 'com.tuia.sdk:plugin_sdk:1.0.0'
 
 步骤三：sdk初始化
 必须要在application中完成初始化
+
 ```
 public class MyApplication extends Application {
     @Override
@@ -46,11 +50,12 @@ public class MyApplication extends Application {
 ```
 步骤四：在Activity中展示需求的相应类型广告
 广告类view动态加入，需要在布局文件中预埋广告的viewgroup
+```
     <FrameLayout
         android:id="@+id/viewGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+```
 
 ```
    @Override
