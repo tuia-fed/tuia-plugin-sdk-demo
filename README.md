@@ -31,10 +31,11 @@ implementation 'com.tuia.sdk:plugin_sdk:1.0.0'
 
 步骤二：配置appKey
 在项目的清单配置文件AndroidManifest.xml中添加
+```
         <meta-data
             android:name="TUIA_APPKEY"
             android:value="应用的appKey" />
-
+```
 
 步骤三：sdk初始化
 必须要在application中完成初始化
