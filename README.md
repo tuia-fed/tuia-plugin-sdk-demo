@@ -108,13 +108,13 @@ public class MyApplication extends Application {
 ```
 TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 ```
-#####说明:
+##### 说明:
 根据配置和需求创建相应的广告
 
-#####返回值：
+##### 返回值：
 无
 
-#####参数:
+##### 参数:
 * this(Activity):上下文环境
 * viewGroup(viewGroup):用于展示广告的布局
 * adConfig([*AdConfig](#AdConfig)):用于展示广告的配置信息
@@ -122,7 +122,7 @@ TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 
 #类
 #### <div id='AdConfig'>AdConfig</div>
-***广告配置类
+*** 广告配置类
 
 * adslot_id :广告位Id
 * userId:用户Id* 
@@ -139,7 +139,7 @@ TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 #### <div id='AdConsts'>AdConsts</div>
 *** 广告配置的常量类
 
-####adFoxType对应的广告类型
+#### adFoxType对应的广告类型
 
 * SHOW_AD_TYPE_STREAMVIEW:信息流广告
 * SHOW_AD_TYPE_WALL:应用墙，浮标类广告
@@ -148,7 +148,7 @@ TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 * SHOW_AD_TYPE_CUSTOMER：自定义广告
 * SHOW_AD_TYPE_BANNER:横幅类广告
 
-####adFoxSize对应的广告尺寸
+#### adFoxSize对应的广告尺寸
 * FoxNa_750_180:750*180大小，用于SHOW_AD_TYPE_STREAMVIEW广告
 * FoxNa_750_420:750*420大小，用于SHOW_AD_TYPE_STREAMVIEW广告
 * TMNA_640_150:640*150大小，用于SHOW_AD_TYPE_BANNER广告
