@@ -100,6 +100,17 @@ public class MyApplication extends Application {
    }
    
 ```
+
+步骤五：广告类回收：
+在activity的onDestroy时，需要关闭广告的资源
+```
+    @Override
+    protected void onDestroy() {
+        TuiaSdk.getInstance().onDestroy(this);
+        super.onDestroy();
+    }
+```
+
 #接口
 
 #### <div id='showFoxAd'>showFoxAd</div>
