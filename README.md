@@ -106,7 +106,7 @@ public class MyApplication extends Application {
 ***
 创建广告
 ```
-TuiaSdk.getInstance().showFoxAd(this,null,adConfig);
+TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 ```
 #####说明:
 根据配置和需求创建相应的广告
