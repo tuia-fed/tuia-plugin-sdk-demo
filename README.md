@@ -100,9 +100,22 @@ public class MyApplication extends Application {
    }
    
 ```
+#接口
 
-
-
+#### <div id='showFoxAd'>showFoxAd</div>
+***
+创建广告
+```
+TuiaSdk.getInstance().showFoxAd(this,null,adConfig);
+```
+#####说明:
+根据配置和需求创建相应的广告
+#####返回值：
+无
+#####参数:
+* **this(Activity):上下文环境
+* **viewGroup(viewGroup):广告用于展示的布局
+* **adConfig([*Adconfig](#Adconfig)):用于展示广告的配置信息
 
 
 
