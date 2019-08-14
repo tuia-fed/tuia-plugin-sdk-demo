@@ -130,6 +130,16 @@ TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 * viewGroup(viewGroup):用于展示广告的布局
 * adConfig([*AdConfig](#AdConfig)):用于展示广告的配置信息
 
+#### <div id='showFoxAd'>loadUrl</div>
+***
+根据url加载自定义广
+```
+TuiaSdk.getInstance().loadUrl(Context context, String url);
+```
+##### 参数：
+* context(Context):上下问环境
+* url(String):广告地址
+
 
 #类
 #### <div id='AdConfig'>AdConfig</div>
