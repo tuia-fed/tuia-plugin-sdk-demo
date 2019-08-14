@@ -132,7 +132,7 @@ TuiaSdk.getInstance().showFoxAd(this,viewGroup,adConfig);
 
 #### <div id='showFoxAd'>loadUrl</div>
 ***
-根据url加载自定义广
+根据url加载自定义广告
 ```
 TuiaSdk.getInstance().loadUrl(Context context, String url);
 ```
